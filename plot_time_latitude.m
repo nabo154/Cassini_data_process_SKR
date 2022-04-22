@@ -1,4 +1,4 @@
-% Yang Yifei Sustech Shenzhen,2022-04-19
+
 % plot Cassini Time - Latitude 
 function[] = plot_time_latitude(year)
 

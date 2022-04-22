@@ -1,9 +1,3 @@
-% doy : the day of year
-% convert the date to doy
-% Cassini data from 2004 to 2017
-% Identify the leap year from
-% Is it divisible by 4
-% February has 29 days in leap years
 function [doy] = date2doy(year,month,day)
     days = [31,28,31,30,31,30,31,31,30,31,30,31];
     if mod(year,4) == 0

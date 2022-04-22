@@ -1,4 +1,4 @@
-% Yang Yifei Sustech Shenzhen,2022-03-03
+
 % convert readn2 data t97 decimal days convert to year doy hour and minute
 function [year,month,day,hour,minute,second] = t97_to_date(time)
     days = 0;

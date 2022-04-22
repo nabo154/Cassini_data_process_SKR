@@ -1,4 +1,4 @@
-% Yang Yifei, Sustech Shenzhen,2022-03-03
+
 year = 2017;
 month = 3;
 day = 7;

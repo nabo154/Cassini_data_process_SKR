@@ -1,4 +1,4 @@
-% Yang Yifei Sustech Shenzhen 2022-03-07
+
 function [ephemeris_matrix] = get_LT_Rs_Lat(year,doy,hour,hd)
 % Output
 % the first  row time  per 30 minutes

@@ -1,4 +1,4 @@
-% Yang Yifei Sustech Shenzhen 2022-03-04
+
 function [] = plot_rpws_s_l(year,doy,hour,hd,freq1,freq2)
 [tvec,fvec,~,qm,um,~,~,~,~,~,~] = get_n2_n3d(year,doy,hour,hd);
 

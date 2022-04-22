@@ -1,4 +1,4 @@
-% Yang Yifei Sustech Shenzhen 2022-03-04
+
 function [] = plot_fce(year,doy,hour,hd)
 [month,day] = doy2date(year,doy);
 DataPath1 = 'D:\data\kronos_raw_data\Cassini_1_min_mag';

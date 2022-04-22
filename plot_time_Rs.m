@@ -1,4 +1,4 @@
-% Yang Yifei Sustech Shenzhen,2022-04-22
+
 % plot Cassini Time - Rs
 function[] = plot_time_Rs(year) 
  
