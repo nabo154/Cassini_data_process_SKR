@@ -1,11 +1,19 @@
-
 function [ephemeris_matrix] = get_LT_Rs_Lat(year,doy,hour,hd)
+% Input
+% year
+% doy day of year
+% hour
+% hd duration unit : hours
+
 % Output
 % the first  row time  per 30 minutes
 % the second row Rs    1 Rs = 60268.0 km
 % the third  row LT    Local Time
 % the fourth row LAT   Latitude
+
+% source file location
 DataPath1 = 'D:\data\kronos_raw_data\Cassini_1_min_emphmeris';
+
 file_name = strcat('Cassini_ephermerData_',num2str(year),'.mat');
 datafile = fullfile(DataPath1,file_name);
 load(datafile,'empherm_data');
@@ -13,6 +21,7 @@ index = ((doy - 1) * 24 + hour ) * 60 + 1;
 
 intervals = 60;
 % Sampling every 60 minutes
+% modify if you need
 timeIndexs = hd * 60 / intervals + 1;
 ephemeris_matrix = zeros(4,timeIndexs);
 
